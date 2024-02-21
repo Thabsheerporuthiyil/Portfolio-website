@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mouse+Memoirs&family=Mystery+Quest&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:wght@100..900&family=Mouse+Memoirs&family=Mystery+Quest&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mouse Memoirs','Inter';
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 100;
+    background: linear-gradient(
+        to right,
+        #29272A 0%,
+        #29272A 35%,
+        #774069 35%,
+        #774069 100%
+    );
+}
+
+#home{
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(
+        to right,
+        #29272A 0%,
+        #29272A 35%,
+        #774069 35%,
+        #774069 100%
+    );
+}
+
+#projects{
+    width: 100%;
+    height: 100vh;
+    background: #4C3A69;
+
+}
+
+.logo{
+    font-size: 59px;
+    color: #AD8BA4;
+    text-decoration: none;
+}
+.navbar a{
+    font-family: 'Poppins';
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    margin-left: 33px;
+}
+.button {
+    font-family: 'Poppins';
+    font-size: 25px;
+    background-color: #29272A;
+    color: white;
+    margin-left: 30px;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    width: 164px;
+    height: 56px;
+}
+.button:hover {
+    background-color: white;
+    color: black;
+}
+.button {
+    transition: background-color 0.3s ease-in-out;
+}
+.img1 {
+    position: absolute;
+    top: 38%;
+    left: 250px;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    max-width: 210px;
+    height: 197px;
+}
+.img2 {
+    position: absolute;
+    margin-top: 200px;
+    width: 460px;
+    height: 486px;
+    margin-left: 255px;
+}
+.wish {
+    position: absolute;
+    right: 450px;
+    top: 26%;
+    transform: translateY(-50%);
+    width: 355px;
+    height: 80px;
+  }
+.hi{
+    font-family: 'Mystery Quest';
+    position: absolute;
+    right: 250px;
+    top: 42%;
+    transform: translateY(-50%);
+    text-align: right;
+    padding-right: 50px;
+    font-size: 2.6rem;
+    color: #fff;
+    width: 507px;
+    height: 300px;
+}
+.content{
+    font-family: 'Poppins';
+    font-weight: bolder;
+    position: absolute;
+    right: 45px;
+    top:400px;
+    transform: translateY(-50%);
+    padding-right: 50px;
+    font-size: 94px;
+    color: #fff;
+    width: 600px;
+    height: 300px;
+    line-height: 100px;
+}
+.codes{
+    font-family: 'Poppins';
+    right: 10px;
+    top:550px;
+    transform: translateY(-50%);
+    font-size: 94px;
+    color: #774069;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 3px;
+    width: 600px;
+    height: 300px;
+}
+.designs{
+    font-family: 'Poppins';
+    right: 10px;
+    top:550px;
+    transform: translateY(-50%);
+    font-size: 94px;
+    color: #774069;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 3px;
+    width: 600px;
+    height: 300px;
+}
+.proj{
+    font-family: 'Averia Serif Libre';
+    font-weight: bold;
+    font-size: 72px;
+    color: white;
+    padding-top: 120px;
+    padding-left: 123px;
+}
+.img3{
+    padding-left: 123px;
+}
+.discord{
+    display: flex;
+    top: 1176px;
+    left: 128px;
+    position: absolute;
+}
+.descr{
+    font-family: 'Poppins';
+    color: white;
+    font-size: 48px;
+    position: absolute;
+    top: 1450px;
+    left: 170px;
+}
+.img4{
+    position: absolute;
+    padding-left: 140px;
+}
+.web{
+    display: flex;
+    top: 1176px;
+    left: 820px;
+    position: absolute;
+}
+.descr2{
+    font-family: 'Poppins';
+    color: white;
+    font-size: 48px;
+    position: absolute;
+    top: 1385px;
+    left: 900px;
+}
+#skills{
+    width: 100%;
+    height: 100vh;
+    background: #4B8161;
+}
+.skl{
+    font-family: 'Averia Serif Libre';
+    font-weight: bold;
+    font-size: 72px;
+    color: white;
+    padding-top: 100px;
+    padding-left: 123px;
+    padding-bottom: 30px;
+}
+.part1{
+    width: 750px;
+    height: 498px;
+    padding-left: 123px;
+}
+.headsec1{
+    font-family: 'Poppins';
+    color: white;
+    font-size: 56px;
+    position: absolute;
+    top: 1850px;
+    left: 360px;
+}
+.elmnt-list{
+    box-sizing: border-box;
+    font-family: 'Inter';
+    color: white;
+    font-size: 40px;
+    padding-left: 300px;
+    position: absolute;
+    top: 1950px;
+    line-height: 2;
+}
+ul li{
+    font-family: 'Poppins';
+}
+.part2{
+    width: 710px;
+    height: 498px;
+    padding-left: 20px;
+}
+.headsec2{
+    font-family: 'Poppins';
+    color: white;
+    font-size: 56px;
+    position: absolute;
+    top: 1850px;
+    left:960px;
+}
+.elmnt-list2{
+    box-sizing: border-box;
+    font-family: 'Inter';
+    color: white;
+    font-size: 40px;
+    padding-left: 950px;
+    position: absolute;
+    top: 1950px;
+    line-height: 2;
+}
+#contact{
+    width: 100%;
+    height: 100vh;
+    background: #2C2A32;
+}
+.ctct{
+    font-family: 'Averia Serif Libre';
+    font-weight: bold;
+    font-size: 72px;
+    color: white;
+    padding-top: 100px;
+    padding-left: 123px;
+    padding-bottom: 30px;
+}
+.c-box1{
+    padding-left: 95px;
+    padding-top: 50px;
+}
+.linkedin{
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: black;
+    font-size: 48px;
+    position: absolute;
+    top: 3045px;
+    left: 210px;
+}
+.c-box2{
+    padding-left: 95px;
+}
+.github{
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: black;
+    font-size: 48px;
+    position: absolute;
+    top: 3045px;
+    left: 745px;
+}
+.c-box3{
+    padding-left: 70px;
+}
+.instagram{
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: black;
+    font-size: 48px;
+    position: absolute;
+    top: 3045px;
+    left: 1175px;
+}
